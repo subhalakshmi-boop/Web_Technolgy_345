@@ -1,0 +1,118 @@
+/* Body */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef6fb;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #0a7cc2;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #055a8c;
+}
+
+h3 {
+    color: #055a8c;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #0a7cc2;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;   /* FIXED */
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Images */
+img {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* Form */
+form {
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+}
+
+/* Input fields */
+input, select, textarea {
+    width: 220px;
+    padding: 8px;
+    margin: 6px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #0a7cc2;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #055a8c;
+}
+
+/* Table */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+}
+
+/* Services list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: white;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer (optional) */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #0a7cc2;
+    color: white;
+}

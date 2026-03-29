@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Appointment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body background="appointment.png">
+<center>
+<h1>BOOK APPOINTMENT</h1>
+
+<form onsubmit="return validateAppointment()">
+<table>
+
+<tr>
+<td>Name:</td>
+<td><input type="text" id="name"></td>
+</tr>
+
+<tr>
+<td>Age:</td>
+<td><input type="number" id="age"></td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+</td>
+</tr>
+
+<tr>
+<td>Date:</td>
+<td><input type="date" id="date"></td>
+</tr>
+
+<tr>
+<td>Phone:</td>
+<td><input type="text" id="phone"></td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input type="submit" value="Book Appointment">
+</td>
+</tr>
+
+</table>
+</form>
+</center>
+
+<script src="script.js"></script>
+</body>
+</html>

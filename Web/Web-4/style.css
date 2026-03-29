@@ -1,0 +1,149 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+body{
+background:linear-gradient(135deg,#8EC5FC,#E0C3FC);
+min-height:100vh;
+color:#333;
+}
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 60px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+header h1{
+color:#4a6cf7;
+font-size:26px;
+}
+nav a{
+text-decoration:none;
+margin-left:25px;
+color:#333;
+font-weight:500;
+transition:0.3s;
+}
+nav a:hover{
+color:#4a6cf7;
+}
+.hero{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+height:85vh;
+background:linear-gradient(120deg,#4facfe,#00f2fe);
+color:white;
+}
+.hero h2{
+font-size:40px;
+margin-bottom:10px;
+}
+.hero p{
+font-size:18px;
+margin-bottom:25px;
+opacity:0.9;
+}
+.startBtn{
+padding:14px 30px;
+border:none;
+background:white;
+color:#4a6cf7;
+font-size:16px;
+border-radius:30px;
+cursor:pointer;
+transition:0.3s;
+}
+.startBtn:hover{
+transform:scale(1.05);
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+.container{
+width:520px;
+margin:80px auto;
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,0.15);
+text-align:center;
+}
+#textDisplay{
+font-size:18px;
+margin-bottom:20px;
+line-height:1.6;
+}
+textarea{
+width:100%;
+height:120px;
+padding:12px;
+border-radius:8px;
+border:1px solid #ddd;
+font-size:15px;
+resize:none;
+}
+
+textarea:focus{
+outline:none;
+border-color:#4a6cf7;
+}
+#timer{
+margin-top:15px;
+font-size:18px;
+font-weight:bold;
+color:#4a6cf7;
+}
+#result{
+margin-top:10px;
+font-size:18px;
+color:#28a745;
+}
+.resultBox{
+margin-top:20px;
+padding:20px;
+background:#f1f3ff;
+border-radius:10px;
+}
+.resultBox h1{
+font-size:40px;
+color:#4a6cf7;
+margin:10px 0;
+}
+.resultBox h2{
+color:#28a745;
+margin-bottom:15px;
+}
+ul{
+list-style:none;
+margin-top:20px;
+}
+li{
+background:#f1f3ff;
+padding:10px;
+margin-bottom:8px;
+border-radius:6px;
+}
+input{
+width:100%;
+padding:10px;
+margin:8px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+button{
+background:#4a6cf7;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+button:hover{
+background:#3b56d6;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Travel Booking</h1>
+    <input type="text" id="name" placeholder="Enter Your Name">
+    <select id="place">
+        <option value="">Select Destination</option>
+        <option value="5000">Goa - ₹5000</option>
+        <option value="4000">Ooty - ₹4000</option>
+        <option value="8000">Manali - ₹8000</option>
+    </select>
+    <input type="number" id="persons" placeholder="Number of Persons">
+    <button onclick="bookNow()">Book Now</button>
+    <h3 id="result"></h3>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
